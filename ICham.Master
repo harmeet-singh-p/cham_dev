@@ -1,0 +1,121 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ICham.master.cs" Inherits="IChameleon.ICham" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/global.js" type="text/javascript"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<script src="jScripts.js" type="text/JavaScript"></script>
+<script src="js/slider.js" type="text/javascript"></script>
+<link href="js/slider.css" type="text/css" rel="stylesheet" />
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald|Roboto+Slab|Roboto:300,400|Source+Sans+Pro" rel="stylesheet"/>
+<title>Chameleon Finelighting</title>
+    
+</head>
+<body >
+
+    <div class="container-fluid header" runat="server">
+  <div class="container">
+	  <div class="row middle">
+		
+		<div class="col-sm-6">
+		  <div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+		  <div class="logo-text"> <p> Welcome to Chameleon Fine Lighting, your national design source for fine quality lighting.</p></div>
+		</div>	
+		
+		<div class="col-sm-6">
+		  <div class="side-panel">
+			<div class="get-touch">
+			  <p>212.355.6300</p>
+			  <ul>
+			  <li><a href="https://www.facebook.com/chameleonfinelighting" class="fa fa-facebook">&nbsp;</a></li>
+			  <li><a href="https://twitter.com/chameleonlights" class="fa fa-twitter">&nbsp;</a></li>
+			  <li><a href="#" class="fa fa-instagram">&nbsp;</a></li>
+			  <li><a href="https://in.pinterest.com/chameleonlights/" class="fa fa-pinterest-p">&nbsp;</a></li>
+			  </ul>
+			</div>
+			<div class="menu">
+			  <ul>
+			  <li><a href="chameleon-press.aspx">Press</a></li>
+			  <li><a href="chameleon-sustainability.aspx">Sustainability</a></li>
+			  <li><a href="chameleon-custom.aspx">Custom</a></li>
+			  <li><a href="chameleon-manufacturing.aspx">Manufacturing</a></li>
+			  <li><a href="chameleon-policies.aspx">Policies</a></li>
+			  <li><a href="chameleon-memberLogin.aspx">Login</a></li>
+			  </ul>		
+			</div>
+		  </div>
+		</div>
+	  </div>
+  </div>	  
+</div>
+    <!--banner start-->
+<div class="banner inner"><div class="navigation">
+    <div class="container">
+    <ul>
+	    <li><a href="home.aspx">HOME</a></li>
+		<li><a href="chameleon-showrooms.aspx">our showrooms</a></li>
+		<li><a href="chameleon-recentProjects.aspx">our projects</a></li>
+		<li><a >signature line</a>
+          <ul>
+           <li><a href="chameleon-searchResults.aspx?Line=Signature">Browse All</a></li>
+           <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+category+%3d+%27Ceiling%27)+and+(webEnabled+%3d+1)"	
+>Ceiling</a></li>
+           <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+category+%3d+%27Wall%27)+and+(webEnabled+%3d+1)">Wall</a></li>
+           <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+category+%3d+%27Table%27)+and+(webEnabled+%3d+1)">Table</a></li>
+           <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+category+%3d+%27Floor%27)+and+(webEnabled+%3d+1)">Floor</a></li>
+           <li id="seconddrop"><a href="chameleon-signature.aspx">Purpose</a>
+             <ul>
+               <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+collectionName+%3d+%27Kitchen%27)+and+(webEnabled+%3d+1)">Kitchen</a></li>
+               <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+collectionName+%3d+%27Bathroom%27)+and+(webEnabled+%3d+1)">Bathroom</a></li>
+               <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+collectionName+%3d+%27Dining+Room%27)">Dining Room</a></li>
+               <li><a >Table</a></li>
+               <li><a href="chameleon-searchresults.aspx?Line=Custom&heading=Signature Line > &where=+Where+(type+%3d+%27Signature%27+and+collectionName+%3d+%27Outdoor%27)+and+(webEnabled+%3d+1)">Outdoor</a></li>
+             </ul>
+           </li>
+          </ul>
+        </li>
+		<li><a href="chameleon-accessories.aspx">accessories</a></li>
+		<li><a href="chameleon-contact.aspx">contact us</a></li>
+	</ul>
+	</div>
+  </div>
+  <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+  
+  
+</div>
+   
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <br />
+
+        
+
+<!--middle text close-->
+
+<!--footer start-->
+<div class="container-fluid footer">
+  <ul class="social">
+  <li><a href="https://www.facebook.com/chameleonfinelighting" class="fa fa-facebook">&nbsp;</a></li>
+  <li><a href="https://twitter.com/chameleonlights" class="fa fa-twitter">&nbsp;</a></li>
+  <li><a href="#" class="fa fa-instagram">&nbsp;</a></li>
+  <li><a href="https://in.pinterest.com/chameleonlights/" class="fa fa-pinterest-p">&nbsp;</a></li>
+  </ul>
+  <ul class="link">
+  <li><a href="home.aspx">Home</a></li>
+  <li><a href="chameleon-home.aspx">Gallery</a></li>
+  <li><a href="#">Make Appointment</a></li>
+  <li><a href="chameleon-contact.aspx">Contact Us</a></li>
+  <li><a href="chameleon-news.aspx">News</a></li>
+  </ul>
+  <p>© 2017 Chameleon Lighting  |  All Rights Reserved.</p>
+</div>
+<!--footer close-->
+</body>
+</html>

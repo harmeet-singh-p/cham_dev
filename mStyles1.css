@@ -1,0 +1,278 @@
+﻿/*.body 
+{ 
+	margin: 0px; 
+	background-image: url(images/bg_default.jpg);
+}
+
+.regular
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 14px;
+}
+.regularBackground
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F7F4EF;
+	line-height: 14px;
+}
+.regularblack
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 12px;
+}
+.regularblack_Label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #000000;
+	line-height: 12px;
+}
+
+.linkRed
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #ff0033;
+	line-height: 14px;
+}
+
+.regularRed
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #ff0033;
+	line-height: 14px;
+}
+
+.linkWhite
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #ffffff;
+	line-height: 14px;
+}
+
+.linkGray
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #666666;
+	line-height: 14px;
+}
+
+.regulargray
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	line-height: 14px;
+}
+
+.regularGray
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	line-height: 14px;
+}
+
+.regulargray_Label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #666666;
+	line-height: 14px;
+}
+
+.largeGray_Label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:normal;
+	color: #666666;
+	line-height: 14px;
+}
+
+.extraLargeGray_Label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+	color: #666666;
+	line-height: 18px;
+}
+
+.a.regulargray:link, a.regulargray:active, a.regulargray:hover, a.regulargray:visited
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	line-height: 14px;
+}
+.a.regulargray2:link, a.regulargray2:active, a.regulargray2:hover, a.regulargray2:visited
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	line-height: 14px;
+}
+.grayfineprint
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	line-height: 10px;
+}
+.quicksearch {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: normal;
+	width: 95px; 
+	height: 18px;
+	color: #000000; 
+	background-color: #FAFAFA; 
+	border-left-color: #B9B9B9; 
+	border-top-color: #B9B9B9; 
+	border-right-color: #ECECEC; 
+	border-bottom-color: #ECECEC; 
+	border-style: solid; 
+	border-width: 1px; 
+	padding: 1px 2px;
+}
+
+.aSearchLabel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ff0000;
+	line-height: 12px;	
+	
+}
+
+.advancedsearch {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: normal;
+	width: 95px; 
+	height: 18px;
+	color: #000000; 
+	padding: 0px;
+}
+
+.dropdown {
+	vertical-align: middle;
+	color: #000000; 
+	font-family: Arial, Geneva, Helvetica, Verdana, Sans-serif; 
+	font-size: 9px; 
+	height: 18px;
+	padding: 0px;
+	width: 118px;
+	text-align: center;
+}
+.thumbnailimage
+{
+	border-style: solid;
+	border-color: #CCC6BE;
+	border-width: 2px;
+}
+
+.a.highlight:hover
+{
+	border-style: solid;
+	border-color: #339999;
+	border-width: 2px;
+}
+.mediumimage
+{
+	border-style: solid;
+	border-color: #CCC6BE;
+	border-width: 2px;
+}
+
+.outerMaintable
+{
+	width: 1267px;
+}
+
+.innerMaintable
+{
+	width: 1245px;
+}
+
+.maxTable
+{
+	width: 100%;
+}
+
+.contentTable
+{
+	width: 650px;
+	padding: 1px 2px;
+}
+
+.contentTable2 
+{
+    background-color: #F7F4EF;
+    color: #F7F4EF;
+}
+
+.searchTable
+{
+    width: 100%;
+    background-color: #F7F4EF;
+}*/
+
+.infoTable 
+{
+    font-family:'Microsoft YaHei';
+    font-size: medium;
+    font: black;
+    background-color:#6F654A;
+    border: solid;
+    border-color: white;
+    border-width:1px;
+    border-radius: 5px;
+    /*align-content:center;*/
+    width: 80%;
+    padding:10px;
+    /*align-items:center;*/
+    /*align-self:center;*/
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+
+/* Datagrid Row Colors*/
+/* Remove the foward slash and star from both the start and end of the code block to uncomment the style color
+remember to put them around the other set as you can only have 1 color defined.*/
+
+/*The color below is green*/
+ /*TR.row:hover { BACKGROUND-COLOR: #B2D8CB }
+ TR.over TD { BACKGROUND-COLOR: #B2D8CB }*/
+ 
+ /*The color below is light gray*/
+ /*.TR.row:hover { BACKGROUND-COLOR: #E7E3E3 }
+ .TR.over TD { BACKGROUND-COLOR: #E7E3E3 }*/
+ 
+
+ 
+ 
+
+
+
+
+
+
+
